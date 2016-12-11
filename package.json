@@ -1,0 +1,24 @@
+{
+  "name": "my-20s",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://pawsong.github.io/my-20s",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "raw-loader": "^0.5.1",
+    "react-scripts": "0.8.3"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-waypoint": "^4.1.0",
+    "regl": "^1.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build/"
+  }
+}

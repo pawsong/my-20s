@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-bg {
+  position: fixed;
+  color: black;
+  font-size: 24rem;
+  font-weight: 100;
+  z-index: 2;
+  opacity: 0.3;
+  margin: auto;
+  width: 100%;
+  line-height: 100vh;
+}
+
+.App-dark {
+  color: white;
+}
+
+.App-dark .App-bg {
+  color: white;
+}
+
+.App-20s-pages {
+  background: linear-gradient(white, black); /* Standard syntax */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

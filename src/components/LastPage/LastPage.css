@@ -1,0 +1,20 @@
+.PageLast-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.PageLast-container canvas {
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+}
+
+.LastPage-message {
+  z-index: 1;
+  color: #FFEB3B;
+  /* color: yellow; */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 52px;
+  text-shadow: 0 0 15px #000;
+}
